@@ -22,7 +22,7 @@ This project builds and evaluates deep learning models to forecast the **Niño3.
 
 ---
 
-## Task A — Single-Output Models (`z5507377_Assigment_1A.ipynb`)
+## Task A — Single-Output Models
 
 Six separate feedforward neural networks are trained, one per forecast horizon:
 
@@ -43,7 +43,7 @@ Model trained on t+1 is fine-tuned sequentially for t+2 through t+6, reusing lea
 
 ---
 
-## Task B — Multi-Output Model (`z5507377_Assigment_1B.ipynb`)
+## Task B — Multi-Output Model
 
 A single model predicts all 6 horizons simultaneously.
 
@@ -61,7 +61,7 @@ Saved as `Weighted_MOmodel.keras`.
 
 ---
 
-## Evaluation (`z5507377_Evaluation.ipynb`)
+## Evaluation
 
 All models are evaluated on the held-out test set using:
 - **RMSE** (Root Mean Squared Error)
@@ -105,7 +105,7 @@ joblib
 ├── Transfered_model_tplus2–6.keras # Transfer learning models
 ├── MOmodel.keras                  # Task B multi-output model
 ├── Weighted_MOmodel.keras         # Task B weighted loss model
-├── z5507377_Assigment_1A.ipynb
-├── z5507377_Assigment_1B.ipynb
-└── z5507377_Evaluation.ipynb
+├── PartA.ipynb
+├── PartB.ipynb
+└── Evaluation.ipynb
 ```
